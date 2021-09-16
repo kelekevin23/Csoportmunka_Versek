@@ -1,0 +1,58 @@
+@charset "utf-8";
+#body3{
+    background-color: black;
+}
+#headet3 h1{
+    text-align:center;
+    font-family: 'Acme';
+    font-size: 30px;
+}
+#main3{
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    background: #999900;
+}
+nav{
+    text-align: center;
+
+}
+nav li a:hover {
+    color: black;
+    font-weight: 900;
+}
+
+nav ul li {
+    display:inline-block;
+}
+nav ul li a{
+    font-size: 20px; 
+    text-decoration:none;    
+}
+#footer3{
+    text-align:center;
+    background: #ffff00;
+}
+#article3 {
+    text-align:center;
+}
+#article3 div h3{
+    font-size: 30px;
+}
+#article3 div p{
+    font-size: 20px;
+}
+.gomb{
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #009900;
+    padding: 5px;
+    color: white;
+}
+@media screen and (max-width:400px){
+    nav ul li {
+        display: block;
+        text-align:center;
+    }
+}
